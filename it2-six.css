@@ -1,0 +1,12 @@
+a.tab1 { width:100px; height:22px; background-color:#33CC33; color: white;
+border-radius: 10px 10px 0px 0px ; float: left; text-align: center;}
+
+a.tab2 { width:100px; height:22px;background-color:#00BFFF; color: white;
+border-radius: 10px 10px 0px 0px; float: left; text-align: center;}
+
+a.tab3 {width:100px; height:22px; background-color:#FF3333; color: white;
+border-radius: 10px 10px 0px 0px ;float: left; text-align: center;}
+a:hover{ text-decoration: underline; color: #FFFF00;}
+div#tab1 {width:400px; height:70px; background-color: #33CC33; clear: left; }
+div#tab2 {width:400px; height:70px; background-color:#00BFFF; clear: left; display: none;}
+div#tab3 {width:400px; height:70px; background-color:#FF3333; clear: left; display: none;}

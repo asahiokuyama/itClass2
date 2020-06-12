@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>第６講</title>
+  <link rel ="stylesheet" href = "it2-six.css" type = "text/css">
+  <script src = "it2-six.js">
+
+
+  </script>
+</head>
+<body>
+  <p id="ex1" onclick="rei1()">ここをクリックすると線が引かれて、もう一回クリックすると消えます。</p>
+
+  <p class="aaa">要素1</p>
+  <p class="aaa bbb">要素2</p>
+  <p class="ccc aaa bbb">要素3</p>
+  <p class="aaa ccc bbb">要素4</p>
+  <p class="aaa bbb">要素5</p>
+
+
+  <input type="button" value="cccの内容を変更" onclick="six1();"></input><br>
+  <input type="button" value="aaa&bbbの内容を変更" onclick="six2();"></input><br>
+  <form name = "form1" value="テキストを入力してください">
+  内容：<textarea name="areas" rows="1" cols="10" value = "red"></textarea>
+  </form>
+
+  <div class="tabbox">
+      <div class="tabs">
+          <a class="tab1" onclick="ChangeTab1();">タブ1</a>
+          <a class="tab2" onclick="ChangeTab2();">タブ2</a>
+          <a class="tab3" onclick="ChangeTab3();">タブ3</a>
+      </div>
+
+      <div id="tab1" class="tab tab1">
+          <p id = "tex1">これはタブ1です。</p>
+          <input type="button" value="click!" onclick="big();"></input>
+      </div>
+
+      <div id="tab2" class="tab tab2">
+        <p>これはタブ2です。</p>
+      </div>
+
+      <div id="tab3" class="tab tab3">
+        <p>これはタブ3です。</p>
+      </div>
+  </div>
+
+</body>
+</html>
